@@ -1,0 +1,16 @@
+<div class="row">
+	<table>
+		<thead>
+			<tr>
+				<th>nombre de la empresa</th>
+				<th>nombre de usuario</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="Empresa in Empresas">
+				<td>{{ Empresa.name }}</td>
+				<td>{{ Empresa.user.login }}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
